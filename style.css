@@ -41,8 +41,12 @@ p {
   color: #cee3e9;
   margin-top: 24px;
 }
-#decor {
+#divider {
   margin-top: 48px;
+}
+#dividerMob {
+  display: none;
+  margin-top: 32px;
 }
 button {
   position: absolute;
@@ -60,4 +64,30 @@ button:hover {
   cursor: pointer;
   box-shadow: 0 0 40px 0 #53ffaa;
   background-color: #53ffaa;
+}
+@media (max-width: 425px) {
+  main {
+    width: 343px;
+    height: 315px;
+    border-radius: 10px;
+  }
+  h2 {
+    margin-top: 40px;
+    font-size: 1.1rem;
+    letter-spacing: 3.46px;
+  }
+  p {
+    width: 295px;
+    font-size: 2.4rem;
+    letter-spacing: -0.26px;
+  }
+  #divider {
+    display: none;
+  }
+  #dividerMob {
+    display: block;
+  }
+  button {
+    left: 139px;
+  }
 }
