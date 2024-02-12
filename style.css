@@ -5,4 +5,59 @@ html {
 }
 body {
   font-family: "Manrope";
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #202733;
+}
+main {
+  width: 540px;
+  height: 332px;
+  border-radius: 15px;
+  box-shadow: 30px 50px 80px 0 rgba(0, 0, 0, 0.1);
+  background-color: #313a48;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+h2 {
+  font-size: 1.3rem;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 4.09px;
+  text-align: center;
+  color: #53ffaa;
+  margin-top: 48px;
+}
+p {
+  width: 444px;
+  font-size: 2.8rem;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: -0.3px;
+  text-align: center;
+  color: #cee3e9;
+  margin-top: 24px;
+}
+#decor {
+  margin-top: 48px;
+}
+button {
+  position: absolute;
+  left: 238px;
+  bottom: -32px;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  flex-grow: 0;
+  padding: 20px;
+  background-color: #53ffaa;
+  border: none;
+}
+button:hover {
+  cursor: pointer;
+  box-shadow: 0 0 40px 0 #53ffaa;
+  background-color: #53ffaa;
 }
