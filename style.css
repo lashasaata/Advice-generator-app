@@ -13,7 +13,6 @@ body {
 }
 main {
   width: 540px;
-  height: 332px;
   border-radius: 15px;
   box-shadow: 30px 50px 80px 0 rgba(0, 0, 0, 0.1);
   background-color: #313a48;
@@ -42,15 +41,14 @@ p {
   margin-top: 24px;
 }
 #divider {
-  margin-top: 48px;
+  margin: 48px 0px 70px 0px;
 }
 #dividerMob {
   display: none;
-  margin-top: 32px;
+  margin: 32px 0px 70px 0px;
 }
 button {
   position: absolute;
-  left: 238px;
   bottom: -32px;
   width: 64px;
   height: 64px;
@@ -68,7 +66,6 @@ button:hover {
 @media (max-width: 425px) {
   main {
     width: 343px;
-    height: 315px;
     border-radius: 10px;
   }
   h2 {
@@ -86,8 +83,5 @@ button:hover {
   }
   #dividerMob {
     display: block;
-  }
-  button {
-    left: 139px;
   }
 }
